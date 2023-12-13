@@ -1,6 +1,6 @@
 module "vpc" {
-  source     = "./fabric/modules/net-vpc"
-  project_id = var.project_id
+  source     = "./modules/net-vpc"
+  project_id = "onclusive-poc"
   name       = "my-network"
   subnets = [
     {
