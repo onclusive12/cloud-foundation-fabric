@@ -13,7 +13,7 @@ terraform {
 }
 provider "google" {
   project     = "onclusive-poc"
-  region      = "asia-south1"
+  region      = "europe-west1"
 }
 
 
