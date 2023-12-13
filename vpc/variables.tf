@@ -20,15 +20,12 @@ variable "subnets" {
   type = object({
     ip_cidr_range      = string
     name               = string
-    region             = string
-    
+    region             = string  
   })
   description = "List of subnets"
-default = [
-    
+default = [ 
       ip_cidr_range = "10.0.0.0/24"
       name          = "production"
-      region        = "europe-west1"
-      
+      region        = "europe-west1"      
   ]
 }
