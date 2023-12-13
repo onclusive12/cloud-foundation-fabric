@@ -1,5 +1,5 @@
 module "vpc" {
-  source     = "./modules/net-vpc"
+  source     = "../modules/net-vpc"
   project_id = "onclusive-poc"
   name       = "my-network"
   subnets = [
