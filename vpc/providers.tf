@@ -12,8 +12,8 @@ terraform {
 
 }
 provider "google" {
-  project     = "onclusive-poc"
-  region      = "europe-west1"
+  project     = var.project.id
+  region      = var.region
 }
 
 
