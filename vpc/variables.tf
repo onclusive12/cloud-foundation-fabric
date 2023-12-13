@@ -10,12 +10,6 @@ variable "name" {
   default     = "my-network"
 }
 
-variable "ip_cidr_range" {
-  description = "CIDR blocks for subnets in the VPC"
-  type        = list(string)
-  default     = "10.0.0.0/24"
-}
-
 variable "region" {
   description = "region for subnets"
   type        = string
