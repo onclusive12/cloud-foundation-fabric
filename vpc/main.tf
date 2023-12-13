@@ -1,7 +1,7 @@
 module "vpc" {
   source     = "../modules/net-vpc"
-  project_id = "onclusive-poc"
-  name       = "my-network"
+  project_id = var.project_id
+  name       = var.name
   subnets = [
     {
       ip_cidr_range = "10.0.0.0/24"
