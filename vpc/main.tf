@@ -6,7 +6,7 @@ module "vpc" {
     {
       ip_cidr_range = "10.0.0.0/24"
       name          = "production"
-      region        = "europe-west1"
+      region        = "asia-south1"
       secondary_ip_ranges = {
         pods     = "172.16.0.0/20"
         services = "192.168.0.0/24"
@@ -15,7 +15,7 @@ module "vpc" {
     {
       ip_cidr_range = "10.0.16.0/24"
       name          = "production"
-      region        = "europe-west2"
+      region        = "asia-south1"
     }
   ]
 }
