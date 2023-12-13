@@ -7,7 +7,7 @@ terraform {
   }
   backend "gcs" {
     bucket = "fast-fabric-bucket"
-    prefix = "dev"
+
   }
 
 }
